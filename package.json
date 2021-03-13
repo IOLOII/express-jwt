@@ -5,7 +5,11 @@
   "repository": "https://github.com/IOLOII/espress-jwt.git",
   "author": "IOLOII <yuey@coinioc.cc>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }

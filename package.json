@@ -1,0 +1,11 @@
+{
+  "name": "espress-jwt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/IOLOII/espress-jwt.git",
+  "author": "IOLOII <yuey@coinioc.cc>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

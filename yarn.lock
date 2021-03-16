@@ -724,8 +724,8 @@ negotiator@0.6.2:
 
 nodemon@^2.0.7:
   version "2.0.7"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.7.tgz#6f030a0a0ebe3ea1ba2a38f71bf9bab4841ced32"
-  integrity sha512-XHzK69Awgnec9UzHr1kc8EomQh4sjTQ8oRf8TsGrSmHDx9/UmiGG9E/mM3BuTfNeFwdNBvrqQq/RHL0xIeyFOA==
+  resolved "https://registry.npm.taobao.org/nodemon/download/nodemon-2.0.7.tgz?cache=0&sync_timestamp=1609943562513&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnodemon%2Fdownload%2Fnodemon-2.0.7.tgz#6f030a0a0ebe3ea1ba2a38f71bf9bab4841ced32"
+  integrity sha1-bwMKCg6+PqG6Kjj3G/m6tIQc7TI=
   dependencies:
     chokidar "^3.2.2"
     debug "^3.2.6"

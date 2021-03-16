@@ -1,12 +1,12 @@
 {
   "name": "espress-jwt",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "./server/main.js",
   "repository": "https://github.com/IOLOII/espress-jwt.git",
   "author": "IOLOII <yuey@coinioc.cc>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon ./server/main.js"
   },
   "dependencies": {
     "express": "^4.17.1",

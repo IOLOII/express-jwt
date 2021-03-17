@@ -1,8 +1,15 @@
 @host = http://localhost:2414
+
 ###
-GET {{host}} HTTP/1.1
-###
-POST {{host}} HTTP/1.1
+POST {{host}}/login HTTP/1.1
 # header name: header value
+
+{
+    "userName":"1231313",
+    "password":"123456"
+}
+###
+POST {{host}}/checkToken HTTP/1.1
+authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IjEyMzEzMTMiLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTYxNTk3MDU4NCwiZXhwIjoxNjE1OTcxNDg0fQ.yYqyFwNd-MKp7tS2FTtzMOVVmtViA_moXEOCRiCgsnc
 
 # content

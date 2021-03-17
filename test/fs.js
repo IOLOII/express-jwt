@@ -25,13 +25,13 @@ module.exports = () => {
     // let fsWatcher = fs.watch('./test/fs.js', (eventType, filename) => {
     //     console.log(`${eventType}, ${filename}`);
     // })
-    let stream = fs.createReadStream('./1.txt', { encoding: 'utf-8' })
-    stream.on('data', data => {
-        console.log(data);
-    })
-    stream.on('end', () => {
-        console.log('finish');
-    })
+    // let stream = fs.createReadStream('./1.txt', { encoding: 'utf-8' })
+    // stream.on('data', data => {
+    //     console.log(data);
+    // })
+    // stream.on('end', () => {
+    //     console.log('finish');
+    // })
     // console.log(stream);
     // fs.open('./test/fs.js', (err, fd) => {
     //     console.log(err, fd);

@@ -10,6 +10,8 @@ POST {{host}}/login HTTP/1.1
 }
 ###
 POST {{host}}/checkToken HTTP/1.1
-authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IjEyMzEzMTMiLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTYxNTk3MDU4NCwiZXhwIjoxNjE1OTcxNDg0fQ.yYqyFwNd-MKp7tS2FTtzMOVVmtViA_moXEOCRiCgsnc
+authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IjEyMzEzMTMiLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTYxNjE3ODYyOSwiZXhwIjoxNjE2MTc5NTI5fQ.UqXTrmAQ89Lk_QzKUcCL4f_58bVTlhRI0DfP1ZtmjzM
 
 # content
+###
+GET {{host}}/socket HTTP/1.1
